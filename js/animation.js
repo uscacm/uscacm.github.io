@@ -1,6 +1,6 @@
 //set largest circle
 $(document).ready(function() {
-    AOS.init();
+	AOS.init();
     var openMenu = 0;
     $('#menu-button').on('click', function() {
     	if (openMenu === 0) {

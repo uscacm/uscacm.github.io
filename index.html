@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="css/main.css"> 
- 	<link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css">
+ 	<link rel="stylesheet" href="aos/aos.css">
  	<link href="https://fonts.googleapis.com/css?family=Open+Sans:500" rel="stylesheet">
  	<link rel="shortcut icon" type="image/png" href="img/cog.png"/>
  </head>
@@ -310,11 +310,14 @@
 
 	</div>
 		<!-- Animate on scroll library -->
-      <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-	  <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+	   <script src="js/jquery.js"></script>
+	   <script src="aos/aos.js"></script>
+	     <script>
+		    AOS.init();
+		  </script>
 	  <!-- Typed.js -->
       <script type="text/javascript" src="js/typed.min.js"></script>
-	  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
+<!-- 	  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script> -->
 	  <script src="js/animation.js"></script>
 	  <script src="https://use.fontawesome.com/3c5a1b4ed0.js"></script>
   </body>
