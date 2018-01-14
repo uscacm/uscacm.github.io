@@ -148,10 +148,11 @@ a {
 }
 
 #typing-box {
-	border-left: 4px solid white;
+	border-left: 3px solid white;
 	margin-left: 5%;
 	padding-left: 1%;
 	font-family: Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+	font-size: 20px;
 }
 
 #typing-box p {
