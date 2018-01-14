@@ -151,16 +151,12 @@ a {
 	border-left: 4px solid white;
 	margin-left: 5%;
 	padding-left: 1%;
+	font-family: Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
 }
 
 #typing-box p {
 	margin: 5px;
 }
-#typed {
-	height: 20px;
-	width: 300px;
-}
-
 .circle {
 	z-index: 0;
 }
