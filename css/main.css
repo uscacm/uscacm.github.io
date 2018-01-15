@@ -30,6 +30,9 @@ video {
     transform: translateX(-50%) translateY(-50%);
 	background-size: cover;
 	transition: 1s opacity;
+	background-image: url('code-alt.png');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 a {
