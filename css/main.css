@@ -543,6 +543,9 @@ a {
 }
 
 @media (max-width: 800px) {
+	#wrapper-body, #splash-section, #main, #background {
+		overflow-x: hidden;
+	}
 	.nav-bar {
 		display: flex;
 		flex-direction: row;
