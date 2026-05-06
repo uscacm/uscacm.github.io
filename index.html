@@ -1,333 +1,239 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>ACM @ USC | Computer Science at USC</title>
-	<meta name="description" content="">
+	<title>ACM @ USC | USC’s largest CS community — workshops, hackathons, Industry Night</title>
+	<meta name="description"
+		content="Join ACM @ USC for mentorship, TrojanHacks, recruiting events, and weekly workshops. Open to all USC students who want to build skills and community in tech.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="ACM @ USC">
+	<meta property="og:description"
+		content="Workshops, Industry Night, TrojanHacks, and a tight-knit CS community at USC.">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://uscacm.github.io/">
+	<meta property="og:image" content="https://uscacm.github.io/img/acm_logo2.png">
+	<meta name="twitter:card" content="summary_large_image">
 	<link type="text/css" rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/site.css">
 	<link rel="stylesheet" href="aos/aos.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
 	<link rel="shortcut icon" type="image/png" href="img/acm2023.png" />
 </head>
 
 <body>
-	<div id="background">
-		<video id="bgvid" playsinline autoplay muted loop>
+	<a class="skip-link" href="#main">Skip to main content</a>
+	<div id="background" aria-hidden="true">
+		<video id="bgvid" playsinline autoplay muted loop poster="img/acm_logo2.png">
 			<source src="img/code.mp4" type="video/mp4">
 		</video>
 	</div>
-	<!-- Navbar -->
-	<div id="main">
-		<div class="nav-bar">
-			<div class="logo">ACM @ USC</div>
-			<div class="nav-tab nav-end"><a href="#about-section">About</a></div>
-			<div class="nav-tab"><a href="#us-section">Team</a></div>
-			<div class="nav-tab join-tab"><a href="#membership-section">Join</a></div>
-			<div class="nav-tab" id="menu-button"><img src="img/menu-icon.png" />
 
+	<header class="site-header">
+		<div class="site-header__inner">
+			<a class="site-logo" href="#">ACM @ USC</a>
+			<nav class="site-nav" id="nav-panel" aria-label="Primary">
+				<a href="#why-join" data-section>Why join</a>
+				<a href="#membership-section" data-section>Get Involved</a>
+				<a href="#events-section" data-section>Events</a>
+				<a href="#resources-section" data-section>Resources</a>
+				<a href="#sponsors-section" data-section>Sponsors</a>
+				<a href="#us-section" data-section>Team</a>
+				<a href="#faq-section" data-section>FAQ</a>
+				<a href="#contact-section" data-section>Contact</a>
+			</nav>
+			<div class="site-header__cta">
+				<a class="btn btn-ghost btn-sm" data-site-rsvp href="https://www.instagram.com/uscacm/" target="_blank"
+					rel="noopener noreferrer">RSVP for events</a>
+				<a class="btn btn-primary btn-sm navbar-join" data-site-join href="https://forms.gle/fEPVN2eKbFuNz1Vk9"
+					target="_blank" rel="noopener noreferrer">Join ACM</a>
 			</div>
+			<button type="button" id="menu-button" aria-label="Open menu" aria-expanded="false"
+				aria-controls="nav-panel">
+				<img src="img/menu-icon.png" alt="" width="24" height="18">
+			</button>
 		</div>
+	</header>
 
-		<div id="splash-section">
-			<div id="wrapper">
-				<div id="splash-information">
-					<div id="circle-one">
-						<div id="circle-two"></div>
+	<main id="main">
+		<section id="hero" class="hero" aria-labelledby="hero-title">
+			<div class="hero__inner">
+				<div class="hero__mark">
+					<div class="hero__ring hero__ring--outer" aria-hidden="true"></div>
+					<div class="hero__ring hero__ring--inner" aria-hidden="true"></div>
+					<img src="img/acm_logo2.png" alt="ACM at USC" class="hero__logo" width="200" height="200">
+				</div>
+				<div class="hero__copy">
+					<p class="hero__badge">USC · Association for Computing Machinery</p>
+					<h1 id="hero-title">Build skills, friendships, and a career in tech—starting here.</h1>
+					<p class="hero__subtitle">ACM @ USC hosts workshops, hackathons, and industry events that help students 
+						learn, build, and connect. Whether you're just starting out or already building projects, 
+						you belong here.</p>
+					<div class="hero__actions">
+						<a class="btn btn-primary" data-site-join href="https://forms.gle/fEPVN2eKbFuNz1Vk9" target="_blank"
+							rel="noopener noreferrer">Join ACM</a>
+						<a class="btn btn-secondary" data-site-rsvp href="https://linktr.ee/uscacm?utm_source=linktree_profile_share&ltsid=669dc812-47a8-4d71-b98e-82678371f684" target="_blank"
+							rel="noopener noreferrer">RSVP for events</a>
 					</div>
-					<img src="img/acm_logo2.png" id="center-logo" />
-				</div>
-				<div id="typing-box">
-					<p>#include &lt;iostream&gt;</p>
-					<p>#include &lt;amazing-community&gt;</p>
-					<p>#include &lt;cool-team&gt;</p>
-					<p>using namespace std;</p>
-					<p>int main ( ) {</p>
-					<p id="typed">&nbsp;&nbsp;&nbsp;cout&nbsp;&lt;&lt;&nbsp;"Welcome to ACM!"&nbsp;&lt;&lt;&nbsp;endl;
-					</p>
-					<p>}</p>
-
 				</div>
 			</div>
-		</div>
+		</section>
 
 		<div id="wrapper-body">
-			<div id="membership-section">
-				<div id="membership-title">Become a Member</div>
-				<div id="membership-wrapper">
-					<div id="membership-center">
-						<p id="membership-info">As a member, you get exclusive access to all of our events, including
-							our Industry Night and special
-							meetups with companies. You also get to attend our semesterly hackathon and get paired with
-							a mentor. There's no reason
-							not to become a member!</p>
-						<a id="join-button" href="https://forms.gle/fEPVN2eKbFuNz1Vk9">Join</a>
+			<section id="why-join" class="section" aria-labelledby="why-title">
+				<div class="section__inner">
+					<p class="section__eyebrow">Why join</p>
+					<h2 id="why-title" class="section__title">More than a club - a place to learn, build, and connect.</h2>
+					<p class="section__lead">We are one of USC's most active student CS communities. 
+						Attend workshops, meet industry professionals, and connect with people who support your growth.</p>
+					<div class="card-grid">
+						<div class="info-card" data-aos="fade-up">
+							<div class="info-card__icon" aria-hidden="true">&#128640;</div>
+							<h3>Learn by building</h3>
+							<p>Hands-on workshops on leetcode, git, web development, interviews, and tools you'll actually use.</p>
+						</div>
+						<div class="info-card" data-aos="fade-up" data-aos-delay="50">
+							<div class="info-card__icon" aria-hidden="true">&#129309;</div>
+							<h3>Meet the industry</h3>
+							<p>Industry Night and partner events connect you with engineers, recruiters, and alumni.</p>
+						</div>
+						<div class="info-card" data-aos="fade-up" data-aos-delay="100">
+							<div class="info-card__icon" aria-hidden="true">&#127881;</div>
+							<h3>Community that lasts</h3>
+							<p>Hackathons, socials, and small teams help you build real connections with other students.</p>
+						</div>
+					</div>
+				</div>
+			</section>
 
-						<p id="membership-info">Follow us on Instagram to keep up with our events and updates!</p>
-						<a id="instagram" href="https://instagram.com/uscacm/">Instagram</a>
+			<section id="membership-section" class="section" aria-labelledby="membership-title">
+				<div class="section__inner">
+					<p class="section__eyebrow">Get involved</p>
+					<h2 id="membership-title" class="section__title">How to get involved</h2>
+					<p class="section__lead">ACM @ USC is open to all students. Whether you're just starting out or already building projects, there are many ways to learn, meet people, and get involved.</p>
+					<div id="benefit-grid" class="benefit-grid"></div>
+					<div class="membership-cta-row">
+						<a class="btn btn-primary" data-site-join href="https://forms.gle/fEPVN2eKbFuNz1Vk9"
+							target="_blank" rel="noopener noreferrer">Join ACM</a>
+						<a class="btn btn-secondary" data-site-rsvp href="https://www.instagram.com/uscacm/"
+							target="_blank" rel="noopener noreferrer">See upcoming events</a>
+						<div class="social-mini">
+							<a class="ig" href="https://www.instagram.com/uscacm/" target="_blank"
+								rel="noopener noreferrer">Instagram</a>
+							<a class="li" href="https://www.linkedin.com/company/uscacm/" target="_blank"
+								rel="noopener noreferrer">LinkedIn</a>
+						</div>
+					</div>
+				</div>
+			</section>
 
-						<!-- <p id="membership-facebook">Like us on Facebook to follow all of our events and updates!</p>
-						<a id="facebook" href="https://www.facebook.com/groups/uscacm/">Facebook</a> -->
+			<section id="events-section" class="section section--muted" aria-labelledby="events-heading">
+				<div class="section__inner">
+					<p class="section__eyebrow">Events</p>
+					<h2 id="events-heading" class="section__title">Show up. Learn something. Meet someone.</h2>
+					<p class="section__lead">RSVP links and exact rooms go out on Instagram—follow us so you never miss a
+						change.</p>
+					<div class="event-toolbar" role="group" aria-label="Filter events">
+						<button type="button" class="filter-btn is-active" data-event-filter="upcoming">Upcoming &
+							recurring</button>
+						<button type="button" class="filter-btn" data-event-filter="all">All programs</button>
+					</div>
+					<div id="event-cards" class="event-cards"></div>
+				</div>
+			</section>
 
-						<h3>Email us at uscacm@gmail.com for any questions</h3>
-					</div>
+			<section id="resources-section" class="section" aria-labelledby="resources-title">
+				<div class="section__inner">
+					<p class="section__eyebrow">Resources</p>
+					<h2 id="resources-title" class="section__title">Start here</h2>
+					<p class="section__lead">Quick links we point members to all semester. </p>
+					<div id="resource-cards" class="resource-cards"></div>
 				</div>
-			</div>
-			<div id="about-section">
-				<div id="about-title">About Us</div>
-				<div id="about-information">We are ACM @ USC, which stands for the Association for Computing Machinery. We
-					are USC's largest computer science organization on campus, and we aim to provide as many events and
-					opportunities as possible to help develop your professional and technical skills.</div>
-				<div id="icon-section">
-					<div data-aos="fade-up" data-aos-duration="700" class="icon-box">
-						<i id="icon1" class="icon fa fa-code" aria-hidden="true"></i>
-						<div class="icon-info-title">CODE</div>
-						<div class="icon-info">Learn how to code from the pros with both industry mentors and
-							upperclassmen.</div>
-					</div>
-					<div data-aos="fade-up" data-aos-duration="700" data-aos-offset="200" class="icon-box">
-						<i id="icon2" class="icon fa fa-wifi" aria-hidden="true"></i>
-						<div class="icon-info-title">NETWORK</div>
-						<div class="icon-info">Meet representatives from companies Google, Facebook, Microsoft, and
-							more.</div>
-					</div>
-					<div data-aos="fade-up" data-aos-duration="700" data-aos-offset="300" class="icon-box">
-						<i id="icon3" class="icon fa fa-home" aria-hidden="true"></i>
-						<div class="icon-info-title">FAMILY</div>
-						<div class="icon-info">Join a group of awesome and nerdy other individuals who are all
-							enthusiastic about code.</div>
-					</div>
-				</div>
-			</div>
+			</section>
 
-			<div id="events-section">
-				<div id="events-title">Our Events</div>
-				<div data-aos="fade-left" data-aos-duration="1000" class="event-block">
-					<div class="event-collage">
-						<div class="img-wrapper"><img src="img/industry/audience.jpg" /></div>
-						<div class="img-row">
-							<div class="img-wrapper"><img src="img/industry/google.jpg" /></div>
-							<div class="img-wrapper"><img src="img/industry/goobers.jpg" /></div>
-						</div>
-					</div>
-					<div class="event-info">
-						<h2>Industry Night</h2>
-						<p>Our biggest event, industry night, invites company representatives from the top of the
-							industry to come and talk to our members. Talk to recruiters and gain valuable internship
-							and job opportunities. We bring in representatives from Google, Facebook, Microsoft, IBM and
-							many more.</p>
+			<section id="sponsors-section" class="section section--muted" aria-labelledby="sponsors-title">
+				<div class="section__inner">
+					<p class="section__eyebrow">Partners</p>
+					<h2 id="sponsors-title" class="section__title">Companies you will see on campus</h2>
+					<p class="section__lead">Representatives and alumni from teams like these join our workshops and
+						Industry Night.</p>
+					<div class="sponsor-strip">
+						<ul id="sponsor-list" class="sponsor-list"></ul>
 					</div>
 				</div>
-				<div data-aos="fade-right" data-aos-duration="1000" class="event-block reverse-order">
-					<div class="event-collage">
-						<div class="img-row">
-							<div class="img-wrapper"><img src="img/trojanhacks/table.jpg" /></div>
-							<div class="img-wrapper"><img src="img/trojanhacks/judges.jpg" /></div>
-						</div>
-						<div class="img-wrapper"><img src="img/trojanhacks/squad.jpg" /></div>
-					</div>
-					<div class="event-info">
-						<h2>TrojanHacks</h2>
-						<p>We have a semesterly 24-hour hackathon meant for first time hackers to introduce students on
-							how to have a successful hackathon experience. Come to talk to mentors and start your first
-							project with a team of others eager to learn as well, so you can charge into other
-							hackathons with confidence and experience. Food and fun provided!</p>
-					</div>
-				</div>
-				<div data-aos="fade-left" data-aos-duration="1000" class="event-block">
-					<div class="event-collage">
-						<div class="img-wrapper"><img src="img/social/bowling.jpg" /></div>
-						<div class="img-wrapper"><img src="img/social/beach.jpg" /></div>
-					</div>
-					<div class="event-info">
-						<h2>Social Events</h2>
-						<p>We play laser tag together, go bowling, have meetups with UCLA at the beach, hang out at
-							BBQs, and much more. ACM @ USC wants to make your life as a computer scientist at USC a
-							special experience. Meet friends and join a tight-knit community full of people who support
-							you.</p>
-					</div>
-				</div>
-				<div data-aos="fade-right" data-aos-duration="1000" class="event-block reverse-order">
-					<div class="event-collage">
-						<div class="img-wrapper"><img src="img/workshop/class.jpg" /></div>
-						<div class="img-row">
-							<div class="img-wrapper"><img src="img/workshop/whiteboard.jpg" /></div>
-							<div class="img-wrapper"><img src="img/workshop/family.jpg" /></div>
-						</div>
-					</div>
-					<div class="event-info">
-						<h2>Workshops</h2>
-						<p>Learn anything from web development to an introduction to git to how to prepare for
-							interviews. Our members learn from the best of the community so that you can explore your
-							own passions within the field and get a sense of what computer science truly means.</p>
-					</div>
-				</div>
-			</div>
+			</section>
 
-			<div id="us-section">
-				<div id="us-title">Our Team</div>
-				<!-- Commented people are on break. Delete after one semester if they are no longer on board. -->
-				<div id="team">
-					<div class="person">
-						<div class="info">
-							<img src="img/headshot/E-Board Headshots/Alethea_headshot.jpeg">
-							<p>Alethea Nagahara</p>
-						</div>
-						<p>President</p>
-						<p>Class of 2025</p>
-						<p>Computer Science</p>
-					</div>
-					<div class="person">
-						<div class="info">
-							<img src="img/headshot/E-Board Headshots/">
-							<p>Zachary Chung</p>
-						</div>
-						<p>Secretary</p>
-						<p>Class of 2025</p>
-						<p>Computer Science</p>
-					</div>
+			<section id="us-section" class="section" aria-labelledby="team-title">
+				<div class="section__inner">
+					<p class="section__eyebrow">Team</p>
+					<h2 id="team-title" class="section__title">E-board &amp; leads</h2>
+					<p class="section__lead">Say hi at events or add your LinkedIn in <code>js/site-data.js</code> to
+						show icons on your card.</p>
+					<div id="team-grid" class="team-grid"></div>
+				</div>
+			</section>
 
-					<div class="person">
-						<div class="info">
-							<img src="img/headshot/E-Board Headshots/Luong_Jasmine_Headshot.heic">
-							<p>Jasmine Luong</p>
+			<section id="faq-section" class="section section--muted" aria-labelledby="faq-title">
+				<div class="section__inner">
+					<p class="section__eyebrow">FAQ</p>
+					<h2 id="faq-title" class="section__title">Questions, answered</h2>
+					<div id="faq-list" class="faq-list"></div>
+				</div>
+			</section>
+
+			<section id="contact-section" class="section" aria-labelledby="contact-title">
+				<div class="section__inner">
+					<p class="section__eyebrow">Contact</p>
+					<h2 id="contact-title" class="section__title">Stay in the loop</h2>
+					<div class="contact-grid">
+						<div class="newsletter-box">
+							<h3>Event updates by email</h3>
+							<p>Add a Formspree or Google Form URL in <code>js/site-data.js</code> under
+								<code>newsletter.formAction</code>. Until then, submit shows a reminder.</p>
+							<form id="newsletter-form">
+								<label class="visually-hidden" for="newsletter-email">Email</label>
+								<input id="newsletter-email" type="email" name="email" required
+									placeholder="you@usc.edu" autocomplete="email">
+								<button type="submit" class="btn btn-primary btn-block">Subscribe</button>
+							</form>
 						</div>
-						<p>Treasurer</p>
-						<p>Class of 2024</p>
-						<p>Computer Science and <br> Business Administration</p>
-					</div>
-					<div class="person">
-						<div class="info">
-							<img src="img/headshot/E-Board Headshots/Anish_headshot.jpg">
-							<p>Anish Parkhe</p>
+						<div class="contact-block">
+							<h3>Questions?</h3>
+							<p>Email <a href="mailto:uscacm@gmail.com">uscacm@gmail.com</a> and a board member will get
+								back to you.</p>
+							<p><a class="btn btn-secondary" href="https://www.instagram.com/uscacm/" target="_blank"
+									rel="noopener noreferrer">Message us on Instagram</a></p>
 						</div>
-						<p>Treasurer</p>
-						<p>Class of 2024</p>
-						<p>Applied Data Science</p>
-					</div>
-					
-					<div class="person">
-						<div class="info">
-							<img src="img/headshot/E-Board Headshots/kaiden headshot.jpeg">
-							<p>Kaiden Ko</p>
-						</div>
-						<p>Logistics Coordinator</p>
-						<p>Class of 2025</p>
-						<p>Computer Science</p>
-					</div>
-					<div class="person">
-						<div class="info">
-							<img src="img/headshot/E-Board Headshots/alana headshot.jpg">
-							<p>Alana Zhao</p>
-						</div>
-						<p>Logistics Coordinator</p>
-						<p>Class of 2024</p>
-						<p>Computer Science</p>
-					</div>
-					<div class="person">
-						<div class="info">
-							<img src="img/headshot/E-Board Headshots/m">
-							<p>Minhao Li</p>
-						</div>
-						<p>Programming Chair</p>
-						<p>Class of 2026</p>
-						<p>Computer Science</p>
-					</div>
-					<div class="person">
-						<div class="info">
-							<img src="img/headshot/E-Board Headshots/Amanda.jpg">
-							<p>Amanda Huynh</p>
-						</div>
-						<p>Events Coordinator</p>
-						<p>Class of 2025</p>
-						<p>Electrical Engineering</p>
-					</div>
-					<div class="person">
-						<div class="info">
-							<img src="img/headshot/E-Board Headshots/n">
-							<p>Narineh Zargarian</p>
-						</div>
-						<p>Events Coordinator</p>
-						<p>Class of 2025</p>
-						<p>Electrical Engineering</p>
-					</div>
-					<div class="person">
-						<div class="info">
-							<img src="img/headshot/E-Board Headshots/">
-							<p>Li Ho</p>
-						</div>
-						<p>Events Coordinator</p>
-						<p>Class of 2025</p>
-						<p>Electrical Engineering</p>
-					</div>
-					<div class="person">
-						<div class="info">
-							<img src="img/headshot/E-Board Headshots/Samruddhi_Headshot.jpg">
-							<p>Samruddhi Kale</p>
-						</div>
-						<p>Events Coordinator</p>
-						<p>Class of 2025</p>
-						<p>Electrical Engineering</p>
-					</div>
-					<div class="person">
-						<div class="info">
-							<img src="img/headshot/E-Board Headshots/Cynthia_headshot.jpg">
-							<p>Cynthia Huang</p>
-						</div>
-						<p>Social media coordinator</p>
-						<p>Class of 2025</p>
-						<p>Electrical Engineering</p>
-					</div>
-					<div class="person">
-						<div class="info">
-							<img src="img/headshot/E-Board Headshots/Dominic Headshot.jpg">
-							<p>Dominic Woetzel</p>
-						</div>
-						<p>External Affairs</p>
-						<p>Class of 2025</p>
-						<p>Computer Science and <br> Business Administration</p>
-					</div>
-					<div class="person">
-						<div class="info">
-							<img src="img/headshot/E-Board Headshots/brianna-headshot.jpg">
-							<p>Brianna Huynh</p>
-						</div>
-						<p>External Affairs</p>
-						<p>Class of 2025</p>
-						<p>Computer Science and <br> Business Administration</p>
-					</div>
-					<div class="person">
-						<div class="info">
-							<img src="img/headshot/E-Board Headshots/yashvi_headshot.jpg">
-							<p>Yashvi Hiranandani</p>
-						</div>
-						<p>Website Designer</p>
-						<p>Class of 2026</p>
-						<p>Computer Science</p>
 					</div>
 				</div>
-			</div>
+			</section>
 		</div>
+	</main>
+
+	<footer class="site-footer">
+		<div class="site-footer__inner">
+			<p><strong>ACM @ USC</strong> · Association for Computing Machinery student chapter</p>
+			<p>&copy; <span id="footer-year">2026</span> USC Association for Computing Machinery</p>
+			<p><a href="https://www.instagram.com/uscacm/">Instagram</a> · <a
+					href="https://www.linkedin.com/company/uscacm/">LinkedIn</a></p>
+		</div>
+	</footer>
+
+	<div id="sticky-cta" class="sticky-cta" aria-hidden="true">
+		<a class="btn btn-secondary" data-site-rsvp href="https://www.instagram.com/uscacm/" target="_blank"
+			rel="noopener noreferrer">RSVP</a>
+		<a class="btn btn-primary" data-site-join href="https://forms.gle/fEPVN2eKbFuNz1Vk9" target="_blank"
+			rel="noopener noreferrer">Join ACM</a>
 	</div>
 
-	<div class="footer">
-		<div id="copyright">&copy;USC Association for Computing Machinery 2025</div>
-	</div>
-
-	</div>
-	<!-- Animate on scroll library -->
-	<script src="js/jquery.js"></script>
 	<script src="aos/aos.js"></script>
-	<script>
-		AOS.init();
-	</script>
-	<!-- Typed.js -->
-	<script type="text/javascript" src="js/typed.min.js"></script>
-	<!-- 	  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script> -->
-	<script src="js/animation.js"></script>
+	<script src="js/site-data.js"></script>
+	<script src="js/site.js"></script>
 	<script src="https://use.fontawesome.com/3c5a1b4ed0.js"></script>
+	<script>
+		document.getElementById('footer-year').textContent = new Date().getFullYear();
+	</script>
 </body>
 
 </html>

@@ -445,6 +445,26 @@ a {
 	transform: scale(1.1);
 }
 
+#linkedin {
+	background: #0A66C2;
+	color: white;
+	transition: 0.5s;
+	padding: 10px 20px;
+	border-radius: 5px;
+	width: 200px;
+	width: 200px;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	text-decoration: none;
+	margin: 20px 20px 20px 20px;
+}
+
+#linkedin:hover {
+	background-color: #004182;
+	transform: scale(1.1);
+}
+
 #us-section {
 	width: 100%;
 	background-color: #F2F5F5;
