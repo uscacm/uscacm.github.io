@@ -29,7 +29,7 @@ video {
 	transform: translateX(-50%) translateY(-50%);
 	background-size: cover;
 	transition: 1s opacity;
-	background-image: url('code-alt.png');
+	background-image: url('code-alt.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: #251D19;
